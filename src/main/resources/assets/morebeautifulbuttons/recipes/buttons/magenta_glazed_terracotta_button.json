@@ -1,0 +1,14 @@
+{
+"type": "forge:ore_shapeless",
+  "ingredients": [
+      {
+        "item": "minecraft:magenta_glazed_terracotta"
+      },
+      {
+        "item": "morebeautifulbuttons:button_press"
+      }
+    ],
+  "result": {
+    "item": "morebeautifulbuttons:magenta_glazed_terracotta_button"
+  }
+}

@@ -1,0 +1,14 @@
+{
+"type": "forge:ore_shapeless",
+  "ingredients": [
+      {
+        "item": "minecraft:diamond_ore"
+      },
+      {
+        "item": "morebeautifulbuttons:button_press"
+      }
+    ],
+  "result": {
+    "item": "morebeautifulbuttons:diamond_ore_button"
+  }
+}

@@ -1,0 +1,6 @@
+{
+   "parent": "minecraft:block/button",
+   "textures": {
+       "texture": "morebeautifulbuttons:blocks/end_stone_bricks"
+   }
+}

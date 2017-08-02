@@ -1,0 +1,6 @@
+{
+   "parent": "minecraft:block/button_pressed",
+   "textures": {
+       "texture": "morebeautifulbuttons:blocks/light_blue_shulker_box"
+   }
+}

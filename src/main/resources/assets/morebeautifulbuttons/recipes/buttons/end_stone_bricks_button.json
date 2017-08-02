@@ -1,0 +1,14 @@
+{
+"type": "forge:ore_shapeless",
+  "ingredients": [
+  {
+    "item": "morebeautifulbuttons:button_press"
+    },
+      {
+        "item": "minecraft:end_bricks"
+      }
+    ],
+  "result": {
+    "item": "morebeautifulbuttons:end_stone_bricks_button"
+  }
+}

@@ -1,0 +1,14 @@
+{
+"type": "forge:ore_shapeless",
+  "ingredients": [
+      {
+        "item": "minecraft:chorus_plant"
+      },
+      {
+        "item": "morebeautifulbuttons:button_press"
+      }
+    ],
+  "result": {
+    "item": "morebeautifulbuttons:chorus_plant_button"
+  }
+}

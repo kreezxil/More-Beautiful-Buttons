@@ -1,0 +1,15 @@
+{
+"type": "forge:ore_shapeless",
+  "ingredients": [
+      {
+        "item": "minecraft:stained_glass",
+        "data": 4
+      },
+      {
+        "item": "morebeautifulbuttons:button_press"
+      }
+    ],
+  "result": {
+    "item": "morebeautifulbuttons:yellow_stained_glass_button"
+  }
+}

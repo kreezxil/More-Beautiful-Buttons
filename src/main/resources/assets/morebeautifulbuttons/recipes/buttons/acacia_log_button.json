@@ -1,0 +1,15 @@
+{
+"type": "forge:ore_shapeless",
+  "ingredients": [
+      {
+        "item": "minecraft:log",
+        "data": 4
+      },
+      {
+        "item": "morebeautifulbuttons:button_press"
+      }
+    ],
+  "result": {
+    "item": "morebeautifulbuttons:acacia_log_button"
+  }
+}
