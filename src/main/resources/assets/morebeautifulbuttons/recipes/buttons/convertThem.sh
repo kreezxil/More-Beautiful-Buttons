@@ -3,14 +3,8 @@
 
 for f in *.json;
 do
-  echo "found $f"
-  echo "extracting ingredient"
-  tempVar=$(cat $f | jq -r '.ingredients[0].item')
-  theBlock=$(echo "$tempVar" | cut -f2 -d:)
-  echo "extracting result"
-  tempVar=$(cat $f | jq -r '.result.item')
-  theResult=$(echo "$tempVar" | cut -f2 -d:)
-  echo "creating code fragment"
-  echo "GameRegistry.addShapelessRecipe(new ItemStack(InitBlocks.${theResult^^}), Blocks.${theBlock^^}, InitBlocks.BUTTON_PRESS);" >> copyMe;
+  theBlock=$(cat $f | jq -r '.ingredients[0].item')
+  theResult=$(cat $f | jq -r '.result.item')
+  echo "GameRegistry.addShapelessRecipe(new ItemStack(${theResult}), ${theBlock}, morebeautifulbuttons:button_press);" >> copyMe;
 done
 

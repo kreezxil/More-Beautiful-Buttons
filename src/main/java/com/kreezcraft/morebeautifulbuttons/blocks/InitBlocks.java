@@ -157,24 +157,6 @@ public class InitBlocks {
 	public static final StoneButton BLACK_TERRACOTTA_BUTTON = new StoneButton("black_terracotta_button");
 	//
 	//
-	public static final StoneButton WHITE_CONCRETE_BUTTON = new StoneButton("white_concrete_button");
-	public static final StoneButton ORANGE_CONCRETE_BUTTON = new StoneButton("orange_concrete_button");
-	public static final StoneButton MAGENTA_CONCRETE_BUTTON = new StoneButton("magenta_concrete_button");
-	public static final StoneButton LIGHT_BLUE_CONCRETE_BUTTON = new StoneButton("light_blue_concrete_button");
-	public static final StoneButton YELLOW_CONCRETE_BUTTON = new StoneButton("yellow_concrete_button");
-	public static final StoneButton LIME_CONCRETE_BUTTON = new StoneButton("lime_concrete_button");
-	public static final StoneButton PINK_CONCRETE_BUTTON = new StoneButton("pink_concrete_button");
-	public static final StoneButton GRAY_CONCRETE_BUTTON = new StoneButton("gray_concrete_button");
-	public static final StoneButton LIGHT_GRAY_CONCRETE_BUTTON = new StoneButton("light_gray_concrete_button");
-	public static final StoneButton CYAN_CONCRETE_BUTTON = new StoneButton("cyan_concrete_button");
-	public static final StoneButton PURPLE_CONCRETE_BUTTON = new StoneButton("purple_concrete_button");
-	public static final StoneButton BLUE_CONCRETE_BUTTON = new StoneButton("blue_concrete_button");
-	public static final StoneButton BROWN_CONCRETE_BUTTON = new StoneButton("brown_concrete_button");
-	public static final StoneButton GREEN_CONCRETE_BUTTON = new StoneButton("green_concrete_button");
-	public static final StoneButton RED_CONCRETE_BUTTON = new StoneButton("red_concrete_button");
-	public static final StoneButton BLACK_CONCRETE_BUTTON = new StoneButton("black_concrete_button");
-	//
-	//
 	public static final StoneButton WHITE_SHULKER_BOX_BUTTON = new StoneButton("white_shulker_box_button");
 	public static final StoneButton ORANGE_SHULKER_BOX_BUTTON = new StoneButton("orange_shulker_box_button");
 	public static final StoneButton MAGENTA_SHULKER_BOX_BUTTON = new StoneButton("magenta_shulker_box_button");
@@ -191,24 +173,6 @@ public class InitBlocks {
 	public static final StoneButton GREEN_SHULKER_BOX_BUTTON = new StoneButton("green_shulker_box_button");
 	public static final StoneButton RED_SHULKER_BOX_BUTTON = new StoneButton("red_shulker_box_button");
 	public static final StoneButton BLACK_SHULKER_BOX_BUTTON = new StoneButton("black_shulker_box_button");
-	//
-	//
-	public static final StoneButton WHITE_GLAZED_TERRACOTTA_BUTTON = new StoneButton("white_glazed_terracotta_button");
-	public static final StoneButton ORANGE_GLAZED_TERRACOTTA_BUTTON = new StoneButton("orange_glazed_terracotta_button");
-	public static final StoneButton MAGENTA_GLAZED_TERRACOTTA_BUTTON = new StoneButton("magenta_glazed_terracotta_button");
-	public static final StoneButton LIGHT_BLUE_GLAZED_TERRACOTTA_BUTTON = new StoneButton("light_blue_glazed_terracotta_button");
-	public static final StoneButton YELLOW_GLAZED_TERRACOTTA_BUTTON = new StoneButton("yellow_glazed_terracotta_button");
-	public static final StoneButton LIME_GLAZED_TERRACOTTA_BUTTON = new StoneButton("lime_glazed_terracotta_button");
-	public static final StoneButton PINK_GLAZED_TERRACOTTA_BUTTON = new StoneButton("pink_glazed_terracotta_button");
-	public static final StoneButton GRAY_GLAZED_TERRACOTTA_BUTTON = new StoneButton("gray_glazed_terracotta_button");
-	public static final StoneButton LIGHT_GRAY_GLAZED_TERRACOTTA_BUTTON = new StoneButton("light_gray_glazed_terracotta_button");
-	public static final StoneButton CYAN_GLAZED_TERRACOTTA_BUTTON = new StoneButton("cyan_glazed_terracotta_button");
-	public static final StoneButton PURPLE_GLAZED_TERRACOTTA_BUTTON = new StoneButton("purple_glazed_terracotta_button");
-	public static final StoneButton BLUE_GLAZED_TERRACOTTA_BUTTON = new StoneButton("blue_glazed_terracotta_button");
-	public static final StoneButton BROWN_GLAZED_TERRACOTTA_BUTTON = new StoneButton("brown_glazed_terracotta_button");
-	public static final StoneButton GREEN_GLAZED_TERRACOTTA_BUTTON = new StoneButton("green_glazed_terracotta_button");
-	public static final StoneButton RED_GLAZED_TERRACOTTA_BUTTON = new StoneButton("red_glazed_terracotta_button");
-	public static final StoneButton BLACK_GLAZED_TERRACOTTA_BUTTON = new StoneButton("black_glazed_terracotta_button");
 	//
 	//
 	public static final StoneButton MELON_BLOCK_BUTTON = new StoneButton("melon_block_button");
@@ -230,26 +194,6 @@ public class InitBlocks {
 	public static final WetButton SLIME_BUTTON = new WetButton("slime_button");
 	//
 	//
-	public static final SandButton WHITE_CONCRETE_POWDER_BUTTON = new SandButton("white_concrete_powder_button");
-	public static final SandButton ORANGE_CONCRETE_POWDER_BUTTON = new SandButton("orange_concrete_powder_button");
-	public static final SandButton MAGENTA_CONCRETE_POWDER_BUTTON = new SandButton("magenta_concrete_powder_button");
-	public static final SandButton LIGHT_BLUE_CONCRETE_POWDER_BUTTON = new SandButton("light_blue_concrete_powder_button");
-	public static final SandButton YELLOW_CONCRETE_POWDER_BUTTON = new SandButton("yellow_concrete_powder_button");
-	public static final SandButton LIME_CONCRETE_POWDER_BUTTON = new SandButton("lime_concrete_powder_button");
-	public static final SandButton PINK_CONCRETE_POWDER_BUTTON = new SandButton("pink_concrete_powder_button");
-	public static final SandButton GRAY_CONCRETE_POWDER_BUTTON = new SandButton("gray_concrete_powder_button");
-	public static final SandButton LIGHT_GRAY_CONCRETE_POWDER_BUTTON = new SandButton("light_gray_concrete_powder_button");
-	public static final SandButton CYAN_CONCRETE_POWDER_BUTTON = new SandButton("cyan_concrete_powder_button");
-	public static final SandButton PURPLE_CONCRETE_POWDER_BUTTON = new SandButton("purple_concrete_powder_button");
-	public static final SandButton BLUE_CONCRETE_POWDER_BUTTON = new SandButton("blue_concrete_powder_button");
-	public static final SandButton BROWN_CONCRETE_POWDER_BUTTON = new SandButton("brown_concrete_powder_button");
-	public static final SandButton GREEN_CONCRETE_POWDER_BUTTON = new SandButton("green_concrete_powder_button");
-	public static final SandButton RED_CONCRETE_POWDER_BUTTON = new SandButton("red_concrete_powder_button");
-	public static final SandButton BLACK_CONCRETE_POWDER_BUTTON = new SandButton("black_concrete_powder_button");
-	//
-	//
 	public static final WoodButton CACTUS_BUTTON = new WoodButton("cactus_button");
 	public static final StoneButton REDSTONE_BLOCK_BUTTON = new StoneButton("redstone_block_button");
 }
-//
-//
