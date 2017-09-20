@@ -1,0 +1,16 @@
+[
+{
+  "modId": "morebeautifulbuttons",
+  "name": "More Beautiful Buttons",
+  "description": "200+ Vanilla 1.12 Blocks craftable into buttons!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://minecraft.curseforge.com/projects/more-beautiful-buttons",
+  "updateUrl": "",
+  "authorList": ["Kreezxil"],
+  "credits": "MMD on Discord",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
