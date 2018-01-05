@@ -22,7 +22,7 @@ public class WetButton extends BlockButtonStone implements IHasModel {
 		super();
 		this.name = name;
 		setUnlocalizedName(MoreBeautifulButtons.MODID + "." + name);
-		setCreativeTab(CreativeTabs.REDSTONE);
+		setCreativeTab(MoreBeautifulButtons.creativeTab);
 		setRegistryName(name);
 		InitBlocks.BLOCKS.add(this);
 		InitItems.ITEMS.add(new ItemBlock(this).setRegistryName(getRegistryName()));

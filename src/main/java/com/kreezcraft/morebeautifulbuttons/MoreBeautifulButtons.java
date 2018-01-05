@@ -19,6 +19,8 @@ public class MoreBeautifulButtons {
 	@Mod.Instance(MODID)
 	public static MoreBeautifulButtons instance;
 
+	public static final MBBTab creativeTab = new MBBTab("buttonTab");
+
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 	}

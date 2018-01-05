@@ -3,6 +3,8 @@ language.name=English
 language.region=United States
 language.code=en_us
 
+itemGroup.buttonTab=Buttons!!!
+
 tile.morebeautifulbuttons.acacia_button.name=Acacia Button
 tile.morebeautifulbuttons.wooden_button.name=Wooden Button
 tile.morebeautifulbuttons.birch_button.name=Birch Button

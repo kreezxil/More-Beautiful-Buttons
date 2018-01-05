@@ -5,6 +5,7 @@ import com.kreezcraft.morebeautifulbuttons.client.IHasModel;
 import com.kreezcraft.morebeautifulbuttons.items.InitItems;
 
 import net.minecraft.block.BlockButtonStone;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -12,16 +13,28 @@ import net.minecraft.item.ItemBlock;
 public class StoneButton extends BlockButtonStone implements IHasModel {
 	
 	protected String name;
+	private boolean lightState;
 
 	public StoneButton(String name) {
 		super();
 		this.name = name;
 		setUnlocalizedName(MoreBeautifulButtons.MODID + "." + name);
-		setCreativeTab(CreativeTabs.REDSTONE);
+		setCreativeTab(MoreBeautifulButtons.creativeTab);
 		setRegistryName(name);
+		if(name=="glowstone_button") {
+			this.lightState = true;
+		}
 		InitBlocks.BLOCKS.add(this);
 		InitItems.ITEMS.add(new ItemBlock(this).setRegistryName(getRegistryName()));
 		
+	}
+	
+	@Override
+	public int getLightValue(IBlockState state) {
+			if(this.lightState) {
+				return 15;
+			}
+			return 0;
 	}
 
 	@Override
