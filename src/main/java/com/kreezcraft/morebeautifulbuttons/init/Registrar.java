@@ -43,13 +43,13 @@ public class Registrar {
     @SubscribeEvent
     public static void registerRecipes(RegistryEvent.Register<IRecipe> event)
     {
-    	ResourceLocation WoodenButton = new ResourceLocation("minecraft:wooden_button");
-    	ResourceLocation StoneButton = new ResourceLocation("minecraft:stone_button");
-
-    	IForgeRegistryModifiable modRegistry = (IForgeRegistryModifiable) event.getRegistry();
-        
-    	modRegistry.remove(WoodenButton);
-        modRegistry.remove(StoneButton);
+//    	ResourceLocation WoodenButton = new ResourceLocation("minecraft:wooden_button");
+//    	ResourceLocation StoneButton = new ResourceLocation("minecraft:stone_button");
+//
+//    	IForgeRegistryModifiable modRegistry = (IForgeRegistryModifiable) event.getRegistry();
+//        
+//    	modRegistry.remove(WoodenButton);
+//        modRegistry.remove(StoneButton);
         
     }
 }
