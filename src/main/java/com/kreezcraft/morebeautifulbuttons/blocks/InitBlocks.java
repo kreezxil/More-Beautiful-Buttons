@@ -217,7 +217,11 @@ public class InitBlocks {
 	public static final StoneButton QUARTZ_ORE_BUTTON = new StoneButton("quartz_ore_button");
 	public static final StoneButton SEA_LANTERN_BUTTON = new StoneButton("sea_lantern_button");
 	public static final StoneButton HAY_BLOCK_BUTTON = new StoneButton("hay_block_button");
-	public static final StoneButton HARDENED_CLAY_BUTTON = new StoneButton("hardened_clay_button");
+	
+	//I should seriously change the variable name, but I won't because that would literally cause an issue
+	//for those already having the mod
+	public static final StoneButton HARDENED_CLAY_BUTTON = new StoneButton("terracotta_button");
+	
 	public static final StoneButton PACKED_ICE_BUTTON = new StoneButton("packed_ice_button");
 	public static final StoneButton PURPUR_BLOCK_BUTTON = new StoneButton("purpur_block_button");
 	public static final StoneButton PURPUR_PILLAR_BUTTON = new StoneButton("purpur_pillar_button");
